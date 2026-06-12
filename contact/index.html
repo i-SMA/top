@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>お問い合わせ | i-SMA 一般社団法人 サステナビリティマネジメント＆アシュアランス機構</title>
+  <meta name="description" content="i-SMAへのお問い合わせはこちらから。入会案内、サービス、セミナーイベントについてのご質問を承ります。">
+  <meta property="og:title" content="お問い合わせ | i-SMA">
+  <meta property="og:description" content="i-SMAへのお問い合わせはこちらから。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://i-sma.or.jp/contact/">
+  <link rel="canonical" href="https://i-sma.or.jp/contact/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+<!-- ===== Header ===== -->
+<header class="site-header">
+  <div class="container">
+    <a href="../index.html" aria-label="i-SMA トップページ">
+      <img src="../assets/images/logo.png" alt="i-SMA" class="site-logo"
+           onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+      <span class="site-logo-text" style="display:none">i-SMA</span>
+    </a>
+    <nav class="site-nav" aria-label="グローバルナビゲーション">
+      <ul>
+        <li><a href="../index.html#aboutus">私たちについて</a></li>
+        <li><a href="../index.html#member">理事紹介</a></li>
+        <li><a href="../aboutus/index.html">社団概要</a></li>
+        <li><a href="../index.html#service">活動内容</a></li>
+        <li><a href="../news/index.html">お知らせ</a></li>
+        <li><a href="../events/index.html">セミナーイベント</a></li>
+        <li><a href="index.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== Page Hero ===== -->
+<div class="page-hero">
+  <h1>お問い合わせ</h1>
+  <p>Contact Us</p>
+</div>
+
+<!-- ===== Breadcrumb ===== -->
+<div class="container">
+  <nav class="breadcrumb" aria-label="パンくずリスト">
+    <span><a href="../index.html">ホーム</a></span>
+    <span>お問い合わせ</span>
+  </nav>
+</div>
+
+<!-- ===== Contact Form ===== -->
+<section class="section">
+  <div class="container">
+    <div class="contact-form-wrap">
+      <p style="text-align:center;margin-bottom:36px;color:#555;">
+        入会のご案内、サービスについてのご質問、メディア取材など、<br>
+        下記フォームよりお気軽にお問い合わせください。
+      </p>
+
+      <!--
+        【設置担当者へ】
+        action属性の "https://formspree.io/f/YOUR_FORM_ID" を
+        Formspree（https://formspree.io）で取得したフォームIDに置き換えてください。
+        Formspreeの無料プランで月50件まで受信可能です。
+      -->
+      <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+
+        <div class="form-group">
+          <label for="name">お名前<span class="required">*</span></label>
+          <input type="text" id="name" name="name" required placeholder="山田 太郎" autocomplete="name">
+        </div>
+
+        <div class="form-group">
+          <label for="email">メールアドレス<span class="required">*</span></label>
+          <input type="email" id="email" name="email" required placeholder="example@email.com" autocomplete="email">
+        </div>
+
+        <div class="form-group">
+          <label for="phone">電話番号</label>
+          <input type="tel" id="phone" name="phone" placeholder="03-0000-0000" autocomplete="tel">
+        </div>
+
+        <div class="form-group">
+          <label for="category">お問い合わせ種別<span class="required">*</span></label>
+          <select id="category" name="category" required>
+            <option value="" disabled selected>選択してください</option>
+            <option value="入会案内について">入会案内について</option>
+            <option value="i-SMAのサービスについて">i-SMAのサービスについて</option>
+            <option value="セミナーイベントについて">セミナーイベントについて</option>
+            <option value="メディア取材について">メディア取材について</option>
+            <option value="その他">その他</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">お問い合わせ内容<span class="required">*</span></label>
+          <textarea id="message" name="message" required placeholder="お問い合わせ内容をご記入ください。"></textarea>
+        </div>
+
+        <div class="form-submit">
+          <button type="submit" class="btn btn--primary">送信する</button>
+        </div>
+        <p class="form-note">
+          ご入力いただいた個人情報は、お問い合わせへの対応にのみ使用し、第三者への提供は行いません。
+        </p>
+      </form>
+
+      <div style="margin-top:48px;padding:24px;background:#f7f9fc;border-radius:8px;border:1px solid #e0e6ed;">
+        <h3 style="font-size:1rem;font-weight:700;color:#1a5276;margin-bottom:12px;">入会申し込みについて</h3>
+        <p style="font-size:0.9rem;color:#555;margin-bottom:16px;">
+          i-SMAへの入会をご希望の方は、下記の入会申し込みフォームからお申し込みください。
+        </p>
+        <a href="https://docs.google.com/forms/d/1Xh5hhNtlzg6HxlladOqgked1OSx1xmMe95K5OUEBrBQ/edit"
+           class="btn btn--primary" target="_blank" rel="noopener">入会申し込みフォームへ</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <img src="../assets/images/logo.png" alt="i-SMA" class="footer-logo"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='block'">
+        <span class="footer-logo-text" style="display:none;color:#fff;">i-SMA</span>
+        <p class="footer-logo-text">一般社団法人<br>サステナビリティマネジメント＆アシュアランス機構</p>
+        <p class="footer-address">
+          〒150-0021<br>
+          東京都渋谷区恵比寿西2丁目4番8号<br>
+          ウィンド恵比寿ビル8階
+        </p>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <div class="footer-nav-grid">
+          <a href="../index.html#aboutus">私たちについて</a>
+          <a href="../index.html#member">理事紹介</a>
+          <a href="../aboutus/index.html">社団概要</a>
+          <a href="../index.html#service">活動内容</a>
+          <a href="../news/index.html">お知らせ</a>
+          <a href="../events/index.html">セミナー・イベント</a>
+          <a href="index.html">お問い合わせ</a>
+          <a href="https://docs.google.com/forms/d/1Xh5hhNtlzg6HxlladOqgked1OSx1xmMe95K5OUEBrBQ/edit"
+             target="_blank" rel="noopener">入会申し込み</a>
+        </div>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 一般社団法人 サステナビリティマネジメント＆アシュアランス機構 (i-SMA). All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../data/data.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
